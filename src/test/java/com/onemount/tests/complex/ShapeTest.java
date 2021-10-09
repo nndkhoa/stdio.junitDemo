@@ -1,3 +1,6 @@
+package com.onemount.tests.complex;
+
+import com.onemount.Shape;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.ValueSource;
@@ -5,7 +8,7 @@ import org.junit.jupiter.params.provider.ValueSource;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class ShapeTest {
+public class ShapeTest {
   @ParameterizedTest
   @ValueSource(ints = { 3, 4, 5, 6, 8 })
   @DisplayName("Should create shape with specific side")

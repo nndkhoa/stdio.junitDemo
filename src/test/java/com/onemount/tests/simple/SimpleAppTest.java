@@ -1,3 +1,6 @@
+package com.onemount.tests.simple;
+
+import com.onemount.SimpleApp;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

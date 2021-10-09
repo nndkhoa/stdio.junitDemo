@@ -1,11 +1,14 @@
+package com.onemount.tests.simple;
+
+import com.onemount.Calculator;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@DisplayName("Calculator Class Unit-Test Cases")
-class CalculatorTest {
+@DisplayName("com.onemount.Calculator Class Unit-Test Cases")
+public class CalculatorTest {
 
   @Test
   @DisplayName("Should equal 5")

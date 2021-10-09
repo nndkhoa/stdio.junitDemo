@@ -1,3 +1,5 @@
+package com.onemount;
+
 import java.util.stream.DoubleStream;
 
 public class Calculator {

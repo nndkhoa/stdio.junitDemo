@@ -1,3 +1,6 @@
+package com.onemount.tests.complex;
+
+import com.onemount.NumberFactory;
 import org.junit.jupiter.api.*;
 
 import java.util.ArrayList;
@@ -5,7 +8,7 @@ import java.util.ArrayList;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-class NumberFactoryTest {
+public class NumberFactoryTest {
 
   @BeforeAll
   static void prepare() {
